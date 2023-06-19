@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+CryptoPulse is a React.js application which has the following characteristics/ functionalities-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1- A carousel that contains top 10 cryptocurrencies around the world.
+2- A table that displays all the available cryptocurrencies.
+3- The table of cryptocurrencies is sorted accoring to the market cap of these cryptocurrencies.
+4- Clicking on any of the crypto icons, the app leads the user to a different page.
+5- This page contains complete details about that particular coin including Rank according to market cap size, market price, market cap.
+6- The page also shows a line chart that shows the distribution of the price of the coin, spread over a span of, by default, 24 hours.
+7- The time span of the distribution can also be set to 30 days, 3 months or even a year.
+8- The app also provides a signup and login option where the user can also log into a signed up account.
+9- Once logged in the user can also use a feature called watchlist.
+10- User can add some coins into the watchlist as per the choice.
 
-## Available Scripts
+To enable the features mentioned above, the following technologies have been used.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1- ReactJs- The foundation of the Application.
+2- axios- used for making requests to fetch data out of the APIs used in the application.
+3- Material-ui - to build the user interface.
+4- google firebase- to provide the backend functionality i.e. login part and to use the database to store the user data.
+5- chartJs- to display the data in the line chart form.
+6- Netlify- Netlify is used to deploy the website.
